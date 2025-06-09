@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor no Clique - Criar Conta</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagens/Placa-lanchonete.jpg" alt="Sabor no Clique" class="logo-img">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="new.html">Criar Conta</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="form-card">
+                <h2>Crie Sua Conta Grátis!</h2>
+                <p>Junte-se à família Sabor no Clique para pedidos mais rápidos e ofertas exclusivas.</p>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone (Opcional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="Mínimo 6 caracteres" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirme a Senha</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+                    </div>
+                    <div class="form-group checkbox-group" style="text-align: left;">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Eu aceito os <a href="#">Termos de Serviço</a> e <a href="#">Política de Privacidade</a>.</label>
+                    </div>
+                    <button type="submit" class="btn">Criar Minha Conta</button>
+                    <p class="form-footer-link">Já tem uma conta? <a href="login.html">Faça Login</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Sabor no Clique. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
